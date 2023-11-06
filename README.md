@@ -20,7 +20,6 @@ The EDA and plots in this project utilize the following python libraries:
 4. Download the dataset
 5. Run `streamlit run app.py` command from local terminal
 
-
 ## Credits
 
 Michael Twersky
@@ -29,4 +28,4 @@ Michael Twersky
 
 1. Github says that my .streamlit folder with the config toml file is hidden and I can't add the .streamlit director to the repo.
 2. I didn't quite understand what you meant with regards to the relating columns about the transform method. The article you linked to requires membership to read the entire thing. 
-3. 
+3. My third chart, the scatterplot, shows in jupyter notebooks and when I run the app locally on my machine. I am not sure why it doesn't load through render.
