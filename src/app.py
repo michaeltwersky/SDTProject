@@ -46,7 +46,8 @@ cars['paint_color'] = cars['paint_color'].fillna(value='unknown')
 # Filling missing values in this column with - to keep the column as type bool.
 cars['is_4wd'] = cars['is_4wd'].fillna(value=0)
 
-# Plotting a scatterplot with relationship between model year and vehicle price
+# Plotting a scatterplot with relationship between model year and vehicle price. The checkbox is to...
+check = st.checkbox(label='Model Year')
 fig = px.scatter(cars, x='model_year', y='price', title='Vehicle Model Year to Price')
 st.plotly_chart(fig)
 
@@ -54,5 +55,6 @@ st.plotly_chart(fig)
 fig2 = px.bar(cars, x='model_year', y='condition', color='condition', title='Vehicle Model Year to Condition')
 st.plotly_chart(fig2)
 
+# Plotting a scatterplot with a line of best fit correlating days listed for sale with price of vehicle
 fig3 = px.scatter(cars, x='days_listed', y='price', hover_name='model', trendline='ols', trendline_color_override='pink', title='Correlation of Days Listed to Sale Price')
 st.plotly_chart(fig3)
