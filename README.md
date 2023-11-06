@@ -24,3 +24,9 @@ The EDA and plots in this project utilize the following python libraries:
 ## Credits
 
 Michael Twersky
+
+## Questions
+
+1. Github says that my .streamlit folder with the config toml file is hidden and I can't add the .streamlit director to the repo.
+2. I didn't quite understand what you meant with regards to the relating columns about the transform method. The article you linked to requires membership to read the entire thing. 
+3. 
