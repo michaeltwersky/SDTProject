@@ -26,8 +26,6 @@ Michael Twersky
 
 ## Questions
 
-1. Github says that my .streamlit folder with the config toml file is hidden and I can't add the .streamlit director to the repo.
-2. I didn't quite understand what you meant with regards to the relating columns about the transform method. The article you linked to requires membership to read the entire thing. 
-3. My third chart, the scatterplot, shows in jupyter notebooks and when I run the app locally on my machine. I am not sure why it doesn't load through render.
-4. My checkbox is not displaying on the render app. Not sure why its in the code.
-5. Thank you for your help. I appreciate it.
+1. Sorry which one is the streamlit app?
+2. The checkbox is now showing but it doesn't toggle the graph on/off.
+3. Thanks again.
