@@ -48,6 +48,7 @@ cars['is_4wd'] = cars['is_4wd'].fillna(value=0)
 
 # Plotting a scatterplot with relationship between model year and vehicle price. The checkbox is to...
 check = st.checkbox('Show Model Year to Price Scatter Plot')
+
 if check:
     fig = px.scatter(cars, x='model_year', y='price', title='Vehicle Model Year to Price')
     st.plotly_chart(fig)
