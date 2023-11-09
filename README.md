@@ -26,6 +26,4 @@ Michael Twersky
 
 ## Questions
 
-1. Sorry which one is the streamlit app?
-2. The checkbox is now showing but it doesn't toggle the graph on/off.
-3. Thanks again.
+1. Render URL: https://software-development-tools.onrender.com/
